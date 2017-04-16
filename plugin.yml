@@ -1,0 +1,15 @@
+name: DreamChat
+main: com.mrsweeter.dreamchat.DreamChat
+version: 1.0
+author: MrSweeter / SweetDream
+description: Channel chat
+
+commands:
+    dchat:
+        description: Send message in a channel chat !
+        usage: §c/dchat <channel_name> <message>
+        permission: dreamchat.chat.*
+    dchatreload:
+        description: Reload config !
+        usage: §c/dchatreload
+        permission: dreamchat.reload
