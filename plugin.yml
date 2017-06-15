@@ -8,8 +8,33 @@ commands:
     dchat:
         description: Send message in a channel chat !
         usage: §c/dchat <channel_name> <message>
-        permission: dreamchat.chat.*
+        aliases: dc
+    dclist:
+        description: List accessibles channels
+        usage: §c/dchannel
+        permission: dreamchat.channel.list
+    dcadd:
+        description: Add channel in config
+        usage: §c/dcadd <channel_name> <prefix>
+        permission: dreamchat.channel.add
+    dcremove:
+        description: Remove channel in config
+        usage: §c/dcremove <channel_name>
+        permission: dreamchat.channel.remove
+    dclock:
+        description: Lock a channel, to avoid /dchat
+        usage: §c/dchannel <channel_name>
+        permission: dreamchat.lock
+    dchelp:
+        description: Show help
+        usage: §c/dchelp
+        permission: dreamchat.help
     dchatreload:
         description: Reload config !
         usage: §c/dchatreload
         permission: dreamchat.reload
+
+permissions: 
+    dreamchat.chat.*:
+        description: Allow you to read/write all chat
+        default: op

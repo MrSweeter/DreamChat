@@ -1,7 +1,0 @@
-# Double your quote to avoid error, like 'I can''t fly'
-channel:
-  admin: '&2Admin:&9 {PLAYER}&e '
-messages:
-  noPerm: '&cVous n''avez pas la permission d''écrire dans ce channel'
-  noChannel: '&cCe channel n''existe pas'
-  noMessage: '&cIl n''y a pas de message à envoyer'

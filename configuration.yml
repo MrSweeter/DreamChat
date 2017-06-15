@@ -1,0 +1,17 @@
+# Double your quote to avoid error, like 'I can't fly'
+channel:
+  admin: '&2Admin:&9 {PLAYER}&e '
+messages:
+  noPerm: '&cYou aren''t allow do to this'
+  noChannel: '&cThere is not channel named {CHANNEL_NAME}'
+  noMessage: '&cYou didn''t write message'
+  onlyPlayer: '&cOnly player can execute this command'
+  prefix: '&c[&aDreamChat&c] '
+  reload: '&aReload complete'
+  channel-list: '&6Channels availables: '
+  lock-channel: '&6Channel {CHANNEL_NAME} {STATUS}'
+  no-lock: '&cNo locked channel'
+  channelExist: '&cThis channel already exist'
+  channelNotExist: '&cThis channel doesn''t exist'
+  addChannel: '&aAdd complete'
+  removeChannel: '&aRemove complete'
